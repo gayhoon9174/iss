@@ -1,0 +1,112 @@
+@charset "utf-8"; 
+
+/*------------------------------------
+최초 작성일 : 2020.12.24
+마지막 수정일 : 2020.12.24 
+------------------------------------*/
+
+/*!
+ *  12/24/2020, 9:38 AM
+ *  Copyright (c) AKH All rights reserved.
+ */
+
+/* 나눔스퀘어 */
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url(../font/NanumSquareR.eot);
+ src: url(../font/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumSquareR.woff) format('woff'),
+      url(../font/NanumSquareR.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url(../font/NanumSquareB.eot);
+ src: url(../font/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumSquareB.woff) format('woff'),
+      url(../font/NanumSquareB.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src: url(../font/NanumSquareEB.eot);
+ src: url(../font/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumSquareEB.woff) format('woff'),
+      url(../font/NanumSquareEB.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src: url(../font/NanumSquareL.eot);
+ src: url(../font/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumSquareL.woff) format('woff'),
+      url(../font/NanumSquareL.ttf) format('truetype');
+}
+
+/* NotoSansKR */
+@font-face{
+  font-family:'NotoSansKR';
+  font-weight:300;
+  letter-spacing:-0.25px;
+  src:url(../../../webfonts/NotoSansKR-Light.woff) format("woff");
+  src:url(../../../webfonts/NotoSansKR-Light.woff2) format("woff2");
+}
+
+@font-face{
+  font-family:'NotoSansKR';
+  font-weight:normal;
+  letter-spacing:-0.25px;
+  src:url(../../../webfonts/NotoSansKR-Regular.woff) format("woff");
+  src:url(../../../webfonts/NotoSansKR-Regular.woff2) format("woff2");
+}
+
+@font-face{
+  font-family:'NotoSansKR';
+  font-weight:500;
+  letter-spacing:-0.25px;
+  src:url(../../../webfonts/NotoSansKR-Medium.woff) format("woff");
+  src:url(../../../webfonts/NotoSansKR-Medium.woff2) format("woff2");
+}
+
+@font-face{
+  font-family:'NotoSansKR';
+  font-weight:700;
+  letter-spacing:-0.25px;
+  src:url(../../../webfonts/NotoSansKR-Bold.woff) format("woff");
+  src:url(../../../webfonts/NotoSansKR-Bold.woff2) format("woff2");
+}
+
+
+/* roboto */
+@font-face{
+  font-family:'roboto';
+  src:url(../../../webfonts/roboto-v20-latin-700.woff) format("woff");
+  src:url(../../../webfonts/roboto-v20-latin-700.woff2) format("woff2");
+}
+
+@font-face{
+  font-family:'roboto';
+  font-weight:500;
+  letter-spacing:-0.25px;
+  src:url(../../../webfonts/Roboto-Medium.woff) format("woff");
+  src:url(../../../webfonts/Roboto-Medium.woff2) format("woff2");
+}
+
+@font-face{
+  font-family:'roboto';
+  font-weight:300;
+  letter-spacing:-0.25px;
+  src:url(../../../webfonts/Roboto-Regular.woff) format("woff");
+  src:url(../../../webfonts/Roboto-Regular.woff2) format("woff2");
+}
+
+
+/* AudioWide */
+@font-face {
+ font-family: 'Audiowide';
+ src: url(../font/Audiowide-Regular.ttf) format('truetype');
+}

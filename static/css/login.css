@@ -1,0 +1,166 @@
+@charset "utf-8"; 
+
+/*------------------------------------
+최초 작성일 : 2020.12.24
+마지막 수정일 : 2020.12.24 
+------------------------------------*/
+
+/*!
+ *  12/24/2020, 9:38 AM
+ *  Copyright (c) AKH All rights reserved.
+ */
+
+
+.login_wrap{
+	position: relative; 
+	display: block; 
+	height: 100%; 
+	width: 100%;
+	overflow: hidden;
+}
+
+.login_wrap::after{
+	content: '';
+	display: inline-block;
+	clear: both;
+}
+
+.login_wrap > .login_min{
+	position: relative; 
+	display: inline-flex; 
+	align-items: center; 
+	text-align: left;
+	height: 100%; 
+	width: 37.5%;
+	float: left;
+	background:#fff;
+	padding-left:130px;
+	box-sizing: border-box;
+}
+
+.login_wrap > .login_min::after{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top:calc(50% - 401px);
+	right:0;
+	width:330px;
+	height:803px;
+	background:url('../images/login/login_bg_img_01.png') no-repeat center center;
+}
+
+.login_wrap > .login_min .login{}
+.login_wrap > .login_min .login > h1{
+	display: block;
+	width:220px;
+	height:192px;
+	background:url('../images/login/logo.png');
+	color: transparent;
+	margin-bottom:75px;
+	font-size:0px;
+}
+
+.login_wrap > .login_min .login > .login_form{}
+.login_wrap > .login_min .login > .login_form > ul{}
+.login_wrap > .login_min .login > .login_form > ul > li{
+	margin-bottom:20px;
+	width: 220px;
+}
+.login_wrap > .login_min .login > .login_form > ul > li:last-child{
+	margin-top:50px;
+}
+.login_wrap > .login_min .login > .login_form > ul > li input.login_form_btn{
+	color:#fff;
+	text-align: center;
+	font-family: 'Audiowide', sans-serif;
+	height:60px;
+	border-radius: 20px;
+	width: 100%;
+}
+.login_wrap > .login_min .login > .login_form > ul > li > input{
+	width: 100%;
+}
+
+.login_wrap > .login_min .login > .login_form > ul > li > label{
+    display:none;
+}
+
+.login_wrap > .login_min .login > .login_form > ul > li > input[type=text]{
+	width: 100%;
+	padding: 0 20px 0 72px;
+	background-image:url('../images/login/login_id.png');
+	background-repeat: no-repeat;
+	background-position: 30px 20px;
+	background-size:18px 18px;
+}
+.login_wrap > .login_min .login > .login_form > ul > li > input[type=password]{
+	width: 100%;
+	padding: 0 20px 0 72px;
+	background-image:url('../images/login/login_pw.png');
+	background-repeat: no-repeat;
+	background-position: 34px 20px;
+	background-size:13px 18px;
+}
+.login_wrap > .wisesaying_min{
+	position: relative; 
+	display: inline-flex; 
+	align-items: center; 
+	text-align: left;
+	height: 100%; 
+	width: 62.5%;
+	float: left;
+	background:url('../images/login/right_bg.png') no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding-left:410px;
+}
+
+.login_wrap > .wisesaying_min::before{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top:calc(50% - 426px);
+	left:0;
+	width:373px;
+	height:826px;
+	background:url('../images/login/login_bg_img_02.png') no-repeat center center;
+}
+
+.login_wrap > .wisesaying_min .wisesaying_deco{
+	position: absolute;
+	right:-330px;
+	top:-260px;
+	width:785px;
+	height:807px;
+	display: inline-block;
+	background:url('../images/login/login_right_deco.png') no-repeat center center;
+}
+
+.login_wrap > .wisesaying_min > .wisesaying{
+	position: relative;
+	display: block;
+	height:550px;
+	width: 700px;
+}
+
+.login_wrap > .wisesaying_min > .wisesaying > h3{
+	font-size:18px;
+	color:#D36BFF;
+	font-weight: normal;
+	letter-spacing: 0;
+	margin-bottom:20px;
+}
+
+.login_wrap > .wisesaying_min > .wisesaying .wisesaying_item > h4{
+	font-size:35px;
+	line-height: 50px;
+	font-family: 'NanumSquare', sans-serif;
+	color:#fff;
+	font-weight: 400;
+	margin-bottom:35px;
+}
+
+.login_wrap > .wisesaying_min > .wisesaying .wisesaying_item > p{
+	color:rgba(255,255,255,0.5);
+	line-height: 25px;
+}

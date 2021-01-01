@@ -1,0 +1,5 @@
+{% extends 'request.html' %}   <!--최상단에 base가 될 base.html을 연결시켜준다.-->
+{% block content %} <!--컨텐츠영역에 사용될 태그 선언-->
+    {{object.subject}}<br>
+    {{object.created_date}}
+{% endblock %}

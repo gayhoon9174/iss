@@ -1,0 +1,45 @@
+@charset "utf-8"; 
+
+/*------------------------------------
+최초 작성일 : 2020.11.06
+마지막 수정일 : 2020.11.06 
+------------------------------------*/
+
+/*!
+ *  12/23/2020, 4:56:31 PM
+ *  Copyright (c) dk techin All rights reserved.
+ */
+
+input[type="text"],
+input[type="password"]{
+	background:#F5F3F9;
+	border:0;
+	border-radius: 20px;
+	height:60px;
+	padding:0 20px;
+	color:#8d7692;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 0px rgba(121,28,191,0);
+	transition: all 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+	box-shadow: 0px 5px 10px rgba(121,28,191,0.15);
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+	color:#D6CEDC;
+	letter-spacing: 1px;
+}
+
+input[type="submit"]{
+	background: #791cbf;
+	transition: all 0.2s;
+}
+
+input[type="submit"]:hover{
+	background: #BF1C9E;
+}
+

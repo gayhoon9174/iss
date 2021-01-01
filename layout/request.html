@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+
+    <!-- seo -->
+	<meta name="Keywords" content="">
+	<meta name="Description" content="Innovation Support System">
+	<meta property="og:image" content="{% static 'images/common/thumb.jpg' %}">
+	<meta property="og:title" content="ISS">
+	<meta property="og:description" content="Innovation Support System">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="ISS">
+	<link rel="canonical" href=""><!--추후 경로 삽입 필요-->
+	<link rel="shortcut icon" href="{% static 'images/common/favicon.ico' %}" type="image/x-icon">
+	<link rel="icon" href="{% static 'images/common/favicon.ico' %}" type="image/x-icon">
+
+    <title>ISS - Innovation Support System</title> <!--block템플릿태그는 덮어씌우기라고 보면됨. 뒤에 title이라고 쓴 거는 아무 이름이나 써도 되는거임.-->
+
+    <!--ISS Origin-->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/font.css' %}">
+	<link type="text/css" rel="stylesheet" href="{% static 'css/reset.css' %}">
+	<link type="text/css" rel="stylesheet" href="{% static 'css/common.css' %}">
+	<link type="text/css" rel="stylesheet" href="{% static 'css/icon.css' %}">
+	<link type="text/css" rel="stylesheet" href="{% static 'css/layout.css' %}">
+	<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link type="text/css" rel="stylesheet" href="{% static 'css/login.css' %}">
+
+    <!--Slick-->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/slick.css' %}">
+	<link type="text/css" rel="stylesheet" href="{% static 'css/slick-theme.css' %}">
+
+    <!--Jquery-->
+	<script src="{% static 'js/jquery-3.5.1.min.js' %}"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+	<!--App Request-->
+	<script src="{% static 'js/app_request.js' %}"></script>
+
+</head>
+<body>
+
+    <div class="wrap">
+		<div class="lnb_wrap">
+			<div class="lnb">
+				<h1>Innovation Support System</h1>
+				<nav>
+					<ul>
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+        {% block content %}
+        {% endblock %}
+	</div>
+
+</body>
+</html>

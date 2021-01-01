@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="login_wrap">
+    <div class="login_min">
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="login">
+                <h1>ISS - Innovation Support System</h1>
+
+                <!--{% if not user.is_authenticated %}
+                <a href="{% url 'account:login' %}?next={{ request.path }}">
+                    <span>Login</span>
+                </a>
+                {% else %}
+                <a href="{% url 'account:logout' %}?next={{ request.path }}">
+                    <span>Logout</span>
+                </a>
+                {% endif %}-->
+
+
+                <div class="login_form">
+                    <ul>
+                        {{form.as_ul}}
+                        <li><input type="submit" class="login_form_btn" title="로그인" value="LOGIN"></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+    <div class="wisesaying_min">
+        <div class="wisesaying_deco"></div>
+        <div class="wisesaying">
+            <h3>Today's wise saying</h3>
+            <div class="wisesaying_items_wrap fade">
+                <div class="wisesaying_item">
+                    <h4>직장에서 의자를 잃는 것 보다<br>괴로은 건 동료를 잃는 것</h4>
+                    <p>직장에서 동료가 떠난 경험 많이 해 보셨을 것입니다. <br>집보다 직장에 있는 시간이 많은데 가족같은 직원이 떠나면 뭔가 <br>이제 보기 힘들어 질 것 같고 그리워 지기도 하겠죠. <br>직장에서 동료를 잃는 다는 건 정말 슬픈 일 인 것 같습니다.</p>
+                </div>
+                <div class="wisesaying_item">
+                    <h4>신뢰는 종이와도 같아서<br>한번 구겨지고 나면<br>절대로 다시 완벽해 질 수 없다.</h4>
+                    <p>직장생활에서의 가장 필요한 덕목중의 하나가 신뢰입니다.<br>누구나 현 상황을 피하려고 한 두번을 거짓말을 하지만,<br>그것이 남들에게 한벅 각인되면 절대로 돌이키기가 매우 힘듭니다.</p>
+                </div>
+                <div class="wisesaying_item">
+                    <h4>거지같은 일들이 벌어질 것이다.<br>그러나 인생은 계속될 것이다.</h4>
+                    <p>이 말을 다양한 뜻으로 해석될 수 있을 것 같습니다. <br>"그지같은 일이 벌어질 거지만, 그래도 월급은 들어온다"<br>라고 긍정적으로 생각할 수도 있습니다. <br>"말도안되는 일이 생기지만, 직장생활은 계속된다"<br>라고 부정적으로도 해석될 수 있겠죠.<br>어떻게 받아들이는 지는 당신의 선택입니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
